@@ -19,5 +19,7 @@
     <string name="toppings">Toppings</string>
     <string name="orderSummary">Order Summary</string>
     <string name="minimum_coffee">You can order minimum 1 Cup of coffee!</string>
+    <string name="toast_message">Order for %1$d cup of coffees for $%2$d</string>
+    <string name="email_subject" translatable="false">Order for %1$d Cups Of Coffee!</string>
 </resources>
 

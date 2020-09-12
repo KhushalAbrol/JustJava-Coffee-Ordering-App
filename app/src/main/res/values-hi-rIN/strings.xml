@@ -18,4 +18,5 @@
     <string name="add_chocolate">" चॉकलेट डाले?"</string>
     <string name="total_amount">कुल राशि: ₹</string>
     <string name="thank_you">"ऑर्डर "</string>
+    <string name="toast_message">" ₹%2$d में %1$d कप कॉफी"</string>
 </resources>

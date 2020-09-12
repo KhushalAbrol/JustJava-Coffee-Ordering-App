@@ -46,13 +46,13 @@ public class MainActivity extends AppCompatActivity {
             String summary = createOrderSummary(name, hasWhippedCream, hasChocolate);
             Intent email = new Intent(Intent.ACTION_SENDTO);
             email.setData(Uri.parse("mailto:"));
-            email.putExtra(Intent.EXTRA_SUBJECT, "Order for "+quantity+" Cups Of Coffee!");
+            email.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_subject, quantity));
             email.putExtra(Intent.EXTRA_TEXT, summary);
             if(email.resolveActivity(getPackageManager()) !=  null){
                 startActivity(email);
             }
             displayOrderSummery(summary);
-            viewToast("Order for "+quantity+" cup of coffees for $"+ (basePrice+toppingPrice)*quantity);
+            viewToast(getString(R.string.toast_message, quantity, (basePrice+toppingPrice)*quantity));
         }
     }
 
