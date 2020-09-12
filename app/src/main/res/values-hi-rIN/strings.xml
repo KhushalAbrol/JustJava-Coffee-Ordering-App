@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="nameHint">नाम</string>
+    <string name="chocolate">" चॉकलेट"</string>
+    <string name="whippedCream">" मलाई"</string>
+    <string name="toppings">" टॉपिंग"</string>
+    <string name="quantity">" मात्रा"</string>
+    <string name="order" translatable="false">ऑर्डर करें</string>
+    <string name="orderSummary" translatable="false">"सारांश"</string>
+    <string name="enter_your_name">" आपका नाम लिखें!"</string>
+    <string name="name_required">नाम आवश्यक है</string>
+    <string name="maximum_coffee">आप अधिकतम 10 कप कॉफी ऑर्डर कर सकते हैं!</string>
+    <string name="minimum_coffee">"आप न्यूनतम 1 कप कॉफी ऑर्डर कर सकते हैं!"</string>
+    <string name="name_text">नाम:</string>
+    <string name="quantity_text">"मात्रा:"</string>
+    <string name="add_whipped_cream">दूध में मलाई डाले?</string>
+    <string name="add_chocolate">" चॉकलेट डाले?"</string>
+    <string name="total_amount">कुल राशि: ₹</string>
+    <string name="thank_you">"ऑर्डर "</string>
+</resources>
